@@ -1,11 +1,4 @@
-﻿#separator \x09,,,,,,,,,,,,,,,,,,,,,
-#set_separator,",",,,,,,,,,,,,,,,,,,,,
-#empty_field,(empty),,,,,,,,,,,,,,,,,,,,
-#unset_field,-,,,,,,,,,,,,,,,,,,,,
-#path,conn,,,,,,,,,,,,,,,,,,,,
-#open,2018-08-08-12-22-16,,,,,,,,,,,,,,,,,,,,
-#fields,ts,uid,id.orig_h,id.orig_p,id.resp_h,id.resp_p,proto,service,duration,orig_bytes,resp_bytes,conn_state,local_orig,local_resp,missed_bytes,history,orig_pkts,orig_ip_bytes,resp_pkts,resp_ip_bytes,tunnel_parents   label   detailed-label
-#types,time,string,addr,port,addr,port,enum,string,interval,count,count,string,bool,bool,count,string,count,count,count,count,set[string]   string   string
+﻿#fields,ts,uid,id.orig_h,id.orig_p,id.resp_h,id.resp_p,proto,service,duration,orig_bytes,resp_bytes,conn_state,local_orig,local_resp,missed_bytes,history,orig_pkts,orig_ip_bytes,resp_pkts,resp_ip_bytes,tunnel_parents   label   detailed-label
 1533042911,C5JLGOoxIw2dBZt47,192.168.100.113,123,81.2.254.224,123,udp,-,0.00549,48,48,SF,-,-,0,Dd,1,76,1,76,(empty)   Benign   -,
 1533042921,Cf3cHf4jZr9nvD808i,192.168.100.113,123,147.231.100.5,123,udp,-,0.001741,48,48,SF,-,-,0,Dd,1,76,1,76,(empty)   Benign   -,
 1533042944,CJgmSt3bSY6XwE9fzc,192.168.100.113,123,31.31.74.35,123,udp,-,0.004495,48,48,SF,-,-,0,Dd,1,76,1,76,(empty)   Benign   -,
